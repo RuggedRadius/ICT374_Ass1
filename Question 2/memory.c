@@ -118,7 +118,7 @@ int main(int argc, char *argv[], char *env[])
     // TO DO: 
     // print the addresses of constant gc and string literal "Computer Science"
     // print the addresses of initialized global variables gx, gname1, gname2 
-    printAddress("gc", &gc);
+    printAddress("gc", (void *)&gc);
     printAddress("gname2", &gname2);
     printAddress("gx", &gx);
     printAddress("gname1", gname1);
