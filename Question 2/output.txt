@@ -1,0 +1,72 @@
+stupidflanders@stupidflanders:~/GitHub/ICT374_Ass1/Question 2$ ./memory
+==== program text ====
+                                start address of function printAddress:   0x56056dabb1e9 (86TiB, 21GiB, 730MiB, 748KiB, 489B)
+                                                                  main:   0x56056dabb552 (86TiB, 21GiB, 730MiB, 749KiB, 338B)
+                                                                    f1:   0x56056dabb2a0 (86TiB, 21GiB, 730MiB, 748KiB, 672B)
+                                                                    f2:   0x56056dabb42a (86TiB, 21GiB, 730MiB, 749KiB, 42B)
+
+==== constants and initialized globals ====
+                                                                    gc:   0x56056dabc01c (86TiB, 21GiB, 730MiB, 752KiB, 28B)
+                                                                gname2:   0x56056dabe028 (86TiB, 21GiB, 730MiB, 760KiB, 40B)
+                                                                    gx:   0x56056dabe010 (86TiB, 21GiB, 730MiB, 760KiB, 16B)
+                                                                gname1:   0x56056dabe018 (86TiB, 21GiB, 730MiB, 760KiB, 24B)
+
+==== uninitialized globals ====
+                                                                    gy:   0x56056dabe034 (86TiB, 21GiB, 730MiB, 760KiB, 52B)
+                                                                    gz:   0x56056dabe038 (86TiB, 21GiB, 730MiB, 760KiB, 56B)
+
+==== formal parameters in function main ====
+                                                                  argc:   0x7ffcb53f4acc (127TiB, 1010GiB, 851MiB, 978KiB, 716B)
+                                                                  argv:   0x7ffcb53f4bf8 (127TiB, 1010GiB, 851MiB, 978KiB, 1016B)
+                                                                   env:   0x7ffcb53f4c08 (127TiB, 1010GiB, 851MiB, 979KiB, 8B)
+
+==== heap ====
+
+==== local variables in main ====
+                                                                    p1:   0x56056e54a6b0 (86TiB, 21GiB, 741MiB, 297KiB, 688B)
+                                                                    p2:   0x56056e54a780 (86TiB, 21GiB, 741MiB, 297KiB, 896B)
+
+==== heap ====
+                                                      Heap memory (p1):   0x56056e54a6b0 (86TiB, 21GiB, 741MiB, 297KiB, 688B)
+                                                      Heap memory (p2):   0x56056e54a780 (86TiB, 21GiB, 741MiB, 297KiB, 896B)
+
+==== call function f2 from the main function ====
+
+==== local variables in function f2 ====
+                                                                   buf:   0x7ffcb52f4a90 (127TiB, 1010GiB, 850MiB, 978KiB, 656B)
+                                                                     p:   0x7ffcb52f4a88 (127TiB, 1010GiB, 850MiB, 978KiB, 648B)
+
+==== heap ====
+                                                       Heap memory (p):   0x7f3331cff010 (127TiB, 204GiB, 796MiB, 1020KiB, 16B)
+
+==== call function f1 in function f2  ====
+
+==== formal parameters in function f1 ====
+                                                                    x1:   0x7ffcb52f4a3c (127TiB, 1010GiB, 850MiB, 978KiB, 572B)
+                                                                    x2:   0x7ffcb52f4a38 (127TiB, 1010GiB, 850MiB, 978KiB, 568B)
+                                                                    x3:   0x7ffcb52f4a34 (127TiB, 1010GiB, 850MiB, 978KiB, 564B)
+                                                                    x4:   0x7ffcb52f4a28 (127TiB, 1010GiB, 850MiB, 978KiB, 552B)
+                                                                    x5:   0x7ffcb52f4a30 (127TiB, 1010GiB, 850MiB, 978KiB, 560B)
+                                                                    x6:   0x7ffcb52f4a24 (127TiB, 1010GiB, 850MiB, 978KiB, 548B)
+
+==== local variables in function f1 ====
+                                                                 f1_l1:   0x7ffcb52f4a50 (127TiB, 1010GiB, 850MiB, 978KiB, 592B)
+                                                                 f1_l2:   0x7ffcb52f4a54 (127TiB, 1010GiB, 850MiB, 978KiB, 596B)
+                                                                 f1_l3:   0x7ffcb52f4a4e (127TiB, 1010GiB, 850MiB, 978KiB, 590B)
+                                                                f1_l3b:   0x7ffcb52f4a4f (127TiB, 1010GiB, 850MiB, 978KiB, 591B)
+                                                                 f1_l4:   0x7ffcb52f4a60 (127TiB, 1010GiB, 850MiB, 978KiB, 608B)
+                                                                 f1_l5:   0x7ffcb52f4a58 (127TiB, 1010GiB, 850MiB, 978KiB, 600B)
+                                                                 f1_l6:   0x7ffcb52f4a5c (127TiB, 1010GiB, 850MiB, 978KiB, 604B)
+
+==== arrays of pointers to cmd line arguments and env variables ====
+                                                                  argv:   0x7ffcb53f4bf8 (127TiB, 1010GiB, 851MiB, 978KiB, 1016B)
+                                                                   env:   0x7ffcb53f4c08 (127TiB, 1010GiB, 851MiB, 979KiB, 8B)
+
+==== command line arguments ====
+                                                               argv[0]:   0x7ffcb53f63b9 (127TiB, 1010GiB, 851MiB, 984KiB, 953B)
+                                                          argv[argc-1]:   0x7ffcb53f63b9 (127TiB, 1010GiB, 851MiB, 984KiB, 953B)
+
+==== environment ====
+                                                                env[0]:   0x7ffcb53f63c2 (127TiB, 1010GiB, 851MiB, 984KiB, 962B)
+                                                                env[1]:   0x7ffcb53f63d2 (127TiB, 1010GiB, 851MiB, 984KiB, 978B)
+
